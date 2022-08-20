@@ -1,0 +1,128 @@
+:root{
+--main-tx-cl:#212121;
+--main-tx-par:#757575;
+--main-bg-cl:#F5F5F5 ;
+--accent-color: #2196F3;
+}
+
+/* /--ocnovni koloru--/ */
+text #212121
+#757575
+#FFFFFF
+aksent #2196F3
+
+
+body{
+ font-family: 'Roboto';
+ color: var(--main-tx-cl);  
+ background-color: var(--main-bg-cl);
+ text-decoration: none;
+
+}
+
+/* логотип */
+.logo {
+ color: #000000;
+ font-family: 'Raleway';
+ text-decoration: none;  
+ font-style: normal;
+ font-weight: 700;
+ font-size: 26px;
+ line-height: calc( 31 / 26);
+ letter-spacing: 0.03em;
+
+}
+.span{
+    color: #2196F3;
+}
+.span:hover,
+.span:focus{
+    color: var(--accent-color);
+}
+.logo:hover, 
+.logo:focus{
+    color: var(--accent-color);
+}
+
+
+/* навігація головна*/
+
+
+.link, .list-item {
+    color: var(--main-tx-cl);
+}
+  .link:hover,
+  .link:focus{
+    color: var(--accent-color);
+}
+ .auth{
+    color: #757575;
+} 
+
+
+/* банер */
+.banner{
+background-color: #2F303A;
+
+}
+
+
+.banner-title {
+  color: #FFFFFF; 
+}
+
+
+.banner-btn {  
+    color: #FFFFFF; 
+    background-color: #2196F3;
+       
+}
+
+
+/* особливості */
+.feature{
+    color: var(--main-tx-cl);
+    
+}
+.title{
+    color: var(--main-tx-cl);
+}
+.feature-par{
+    color: var(--main-tx-par);
+}
+/* чим займаємось */
+
+.work-title{
+    color: var(--main-tx-cl);
+}
+
+
+/* наша команда */
+.team{
+    color: var(--main-tx-cl);
+    background-color: #F5F4FA;
+}
+.item-title{
+    color: var(--main-tx-cl);
+    
+}
+.item-par{
+    color: var(--main-tx-par);
+}
+/* підвал */
+.footer{
+    background-color: #2F303A;
+   
+
+}
+.logo-ft{
+    color: #FFFFFF;
+
+}
+.span-ft{
+    color: #2196F3;
+}
+/* адрес в підвалі */
+.address-link{
+    color: #FFFFFF;
+}
