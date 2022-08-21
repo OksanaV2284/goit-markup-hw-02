@@ -61,11 +61,11 @@ letter-spacing: 0.02em;
 color:var(--main-tx-cl);
 }
 
-.link-nav:active{
-    background-color: var(--accent-color);
-}
-  .link-nav:hover,
-  .link-nav:focus{
+
+
+.link-nav:active,
+.link-nav:hover,
+.link-nav:focus{
     color: var(--accent-color);
 }
  .auth{
@@ -75,9 +75,7 @@ color:var(--main-tx-cl);
 .auth:focus{
     color: var(--accent-color);
 }
-.auth:active{
-    background-color: var(--accent-color);
-}
+
 
 .list-item .link:active{
     color: var(--accent-color);
