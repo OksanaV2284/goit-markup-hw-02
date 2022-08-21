@@ -49,7 +49,10 @@ body {
 .link {
     text-decoration: none;
 }
-
+.link:hover,
+.link:focus{
+    color: var(--accent-color);
+}
 
 /* навігація головна*/
 
@@ -227,6 +230,8 @@ cursor: pointer;
 }
 /* список робіт */
 
+
+
 .title{
   
 font-size: 18px;
@@ -234,11 +239,12 @@ line-height: calc(36 / 18);
 letter-spacing: 0.06em;
 color: var(--main-tx-cl);
 }
-.title:active{
-    background-color: var(--accent-color);
-}
+
+
 .par{    
 font-size: 16px;
 line-height: calc(30 / 16);
 color:var(--main-tx-par);
 }
+
+
