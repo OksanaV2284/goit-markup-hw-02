@@ -112,7 +112,8 @@ background-color: var(--baner-cl);
     font-size: 16px;
     line-height: calc(30 / 16);  
     cursor: pointer;  
-      
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;   
 }
 
 
@@ -236,6 +237,7 @@ text-align: center;
 color: var(--main-tx-cl);
 background-color: var(--main-bg-cl);
 text-decoration: none;
+border-radius: 4px;
 cursor: pointer;
 }
 .btn:hover,
